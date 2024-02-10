@@ -1,0 +1,10 @@
+3
+hit
+cog
+hot,dot,dog,lot,log,cog
+hit
+cog
+hot,dot,dog,lot,log
+hit
+cog
+hot,dot,dog,lot,cog,log
