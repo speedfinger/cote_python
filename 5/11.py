@@ -1,11 +1,15 @@
 from collections import deque
+import sys
 
+
+sys.stdin = open("./11.txt",'r')
 # N, M을 공백을 기준으로 구분하여 입력 받기
 n, m = map(int, input().split())
 # 2차원 리스트의 맵 정보 입력 받기
 graph = []
 for i in range(n):
     graph.append(list(map(int, input())))
+print(graph)
 
 # 이동할 네 가지 방향 정의 (상, 하, 좌, 우)
 dx = [-1, 1, 0, 0]
